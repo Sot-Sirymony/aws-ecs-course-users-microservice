@@ -30,6 +30,16 @@ sudo apt update
 # Install Jenkins
 sudo apt install jenkins -y
 
+#check jenkin installed
+sudo systemctl status jenkins
+#first time need unlock jenkin
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+###note from server jenkin run bellow worked
+#http://164.90.166.214:8080/login?from=%2F
+
+
 
 
 
