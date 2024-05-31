@@ -26,3 +26,10 @@ docker node ls
 
 ###docker-swarm1-joned-token noted
 ## docker swarm join --token SWMTKN-1-52arptrew5kffnr50pjt9knvgx354jyx4ybp1palpto4nu6s4e-4c3piqoi3qixn8v2oxn7pxd9k 64.226.67.29:2377
+
+###docker-swarm2-joined-token noted
+##    docker swarm join --token SWMTKN-1-5j6ozctaj0exfdpzuemxu0z0j0ojgxmoy6n645us7jh5r0j747-99cjuj22acv3zatnhxpcl95t7 64.226.67.16:2377
+
+###docker-swarm3-joined-token noted
+## To add a worker to this swarm, run the following command:
+   #    docker swarm join --token SWMTKN-1-04yxafk86dgrp8sgju277rc983vk21xbh5fn96o2bxoenz0i31-4esr2wz2vat1bv8j7zdtm5l6m 64.226.67.56:2377
