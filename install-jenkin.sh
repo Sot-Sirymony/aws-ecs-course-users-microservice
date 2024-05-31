@@ -34,7 +34,9 @@ sudo apt install jenkins -y
 sudo systemctl status jenkins
 #first time need unlock jenkin
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-
+#note password shown after unlock
+#root@Jenkin-Server-2:~# sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+#5493be102f384f37b7a00515c07d516d
 
 ###note from server jenkin run bellow worked
 #http://164.90.166.214:8080/login?from=%2F
@@ -46,3 +48,6 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 #Configure Jenkins:
 #Once logged in, configure Jenkins according to your requirements. This might include setting up agents, configuring security, adding build jobs, etc.
 
+
+####link config jenkin in droplets
+##https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-22-04

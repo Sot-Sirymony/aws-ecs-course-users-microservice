@@ -24,7 +24,6 @@ Open your web browser and go to http://<jenkins-droplet-ip>:8080.
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 #Step 3: Configure Jenkins for Docker and Docker Hub
 #Install Necessary Jenkins Plugins:
-
 #From the Jenkins dashboard, go to "Manage Jenkins" -> "Manage Plugins".
 #In the "Available" tab, install the following plugins:
 #Docker
