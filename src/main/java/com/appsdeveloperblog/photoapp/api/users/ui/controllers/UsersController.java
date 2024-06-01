@@ -68,6 +68,10 @@ public class UsersController {
 
 		return ResponseEntity.status(HttpStatus.CREATED).body(returnValue);
 	}
+	@GetMapping("/hello")
+	public String getHello() {
+		return "hello api worked";
+	}
 
 	@GetMapping("/{userId}")
 	@PostAuthorize("principal == returnObject.body.userId")
