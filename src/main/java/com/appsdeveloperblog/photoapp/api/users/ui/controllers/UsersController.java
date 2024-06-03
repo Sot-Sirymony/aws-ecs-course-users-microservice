@@ -70,7 +70,7 @@ public class UsersController {
 	}
 	@GetMapping("/hello")
 	public String getHello() {
-		return "hello api worked";
+		return "Hello Well Come To API Users-Management-Service";
 	}
 
 	@GetMapping("/{userId}")
